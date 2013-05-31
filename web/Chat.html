@@ -1,0 +1,50 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat</title>
+        <link href="bootstrap/CSS/bootstrap.css" rel="stylesheet" media="screen">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link HREF="CSS/stylesheetMain.css" REL="stylesheet" TYPE="text/css">
+    </head>
+    <body onload="checkLoggedIn();">
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="FunctionsLogin.js"></script>
+        <script src="FunctionsGeneral.js"></script>
+        <script src="FunctionsChat.js"></script>
+        <script src="FunctionsLoginHTML.js"></script>
+        
+        <div class="masterHeader">
+            <div class="masterHeaderLogo">
+                <a class="masterHeaderLogoHomeLink" href="Home.html"><img src="Images/Home.png" width="30" height="30"/></a>
+                <div class="masterHeaderLogoSitename">
+                    <h3>ChatSite</h3>
+                </div>
+            </div>
+            <div id="headerControls" class="btn-group masterHeaderControls">
+            </div>
+        </div>
+        <div class="container">
+            <!--<input type="button" id="statusButton" value="refresh Status" onclick="getOnlineStatus();"/>-->
+            <div class="header">
+                <h1>Chat</h1>
+            </div>
+            <div id="chatBox">
+                <div id="chatField">
+                    
+                </div>
+                <form class="navbar-form" onsubmit="return submitMessage();">
+                    <input type="text" id="message" class="span6" size = "45">
+                    <input class="btn btn-primary" type="submit" name="submit" value="Send">
+                </form>
+            </div>
+            <div id="friends">
+            
+            </div>
+        </div>
+    </body>
+</html>

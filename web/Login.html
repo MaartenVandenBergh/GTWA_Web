@@ -1,0 +1,58 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="bootstrap/CSS/bootstrap.css" rel="stylesheet" media="screen">
+        <title>Login</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="CSS/stylesheetMain.css" REL="stylesheet" TYPE="text/css">
+    </head>
+    <body onload="checkLoggedIn();">
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="FunctionsLogin.js"></script>
+        <script src="FunctionsGeneral.js"></script>
+        <script src="FunctionsLoginHTML.js"></script>
+        
+        <div class="masterHeader">
+            <div class="masterHeaderLogo">
+                <a class="masterHeaderLogoHomeLink" href="Home.html"><img src="Images/Home.png" width="30" height="30"/></a>
+                <div class="masterHeaderLogoSitename">
+                    <h3>ChatSite</h3>
+                </div>
+            </div>
+            <div id="headerControls" class="btn-group masterHeaderControls">
+            </div>
+        </div>
+        <div class="container">
+            <div class="header">
+              <h1>Login</h1>  
+            </div>
+            <form id="loginForm" class="form-horizontal" method="post" action="" onsubmit="return login();">
+                <div id="username" class="control-group">
+                  <label class="loginLabels control-label" for="inputUserName">UserName</label>
+                  <div class="loginControls controls">
+                    <input type="text" id="inputUsername" placeholder="UserName">
+                  </div>
+                </div>
+                <div id="password" class="control-group">
+                  <label class="loginLabels control-label" for="inputPassword">Password</label>
+                  <div class="loginControls controls">
+                    <input type="password" id="inputPassword" placeholder="Password">
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="loginSubmitControls controls form-inline">
+                    <label id="loginCheckboxLabel" class="checkbox">
+                      <input type="checkbox"> Remember me
+                    </label>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

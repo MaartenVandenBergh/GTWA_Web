@@ -1,0 +1,20 @@
+/* 
+    Document   : stylesheetMasterHeader
+    Created on : 28-Feb-2013, 18:31:16
+    Author     : Maarten
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    height:auto;
+    width: auto;
+    background-color: white;
+}
+#LoginBox{
+    
+}
+

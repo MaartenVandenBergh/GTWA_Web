@@ -1,0 +1,244 @@
+/* 
+    Document   : stylescheet
+    Created on : Feb 24, 2012, 3:56:14 PM
+    Author     : Maarten
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    background-image: url('http://xooplate.com/assets/template/5540/p16g81c3ql1lsoqus1p5513ggkat9.jpg');
+    min-width: 960px;
+}
+.container{
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #000000;
+}
+.header{
+    border-radius: 10px;
+    Background-color: #CCCCCC;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 20px;
+}
+.masterHeader{
+    height: 40px;
+    width: auto;
+    background-color: gray;
+    box-shadow: 0 5px 5px #000000;
+    
+}
+.masterHeaderLogo{
+    background-color: gray;
+    float:left;
+    margin-left: 50px;
+    width: 200px;
+    border-radius: 0 0 0 0;
+}
+.masterHeaderLogoHomeLink{
+    float:left;
+    width:40px;
+    margin: 5px 0 0 5px;
+}
+.masterHeaderLogoSitename{
+    float:left;
+    width:100px;
+    height: 40px;
+    margin: 0 0 0 0;
+}
+.masterHeaderLogoSitename h3{
+    color:white;
+    margin: 0;
+}
+.masterHeaderControls{
+    margin-top: 5px;
+    float:right;
+    width: auto;
+    height:auto;
+    margin-right:50px;
+}
+.alert-error{
+    margin-top: 10px;
+}
+.masterHeaderControlsUser{
+    float:right;
+}
+.masterHeaderControlsUserList{
+}
+.masterHeaderControlsFriendList{
+    float:right;
+}
+.masterHeaderControlsUserText{
+    float:left;
+    margin-right: 5px; 
+    text-align: left;
+}
+.MasterHeaderControlsFriendListItem{
+    height: 20px;
+}
+.MasterHeaderControlsFriendListItemText{
+    float:left;
+}
+.badge {
+   float:right;
+}
+#chatBox{
+    background-color: white;
+    width: 523px;
+    height:auto;
+    margin: 0 auto 10px auto;
+}
+#chatField{
+    border-radius: 3px;
+    border: solid 1px lightgray;
+    margin: 0;
+    padding: 5px;
+    background-color: white;
+    min-height: 220px;
+}
+p{
+    margin: 0;
+}
+.friendListItemWhenEmpty{
+    margin-left : 20px;
+}
+#AccountList{
+    min-height: 500px;
+    background-color: #EEEEEE;
+    margin-top: 20px;
+    margin-bottom:10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.AccountListItem{
+    height: 80px;
+    background-color: #DDDDDD;
+    margin-bottom: 10px;
+    padding: 0px;
+    border-radius: 10px;
+}
+.AccountListItemCheckBoxContainer{
+    float:right;
+    background-color: #255ddd;
+    border-radius: 0 10px 10px 0;
+    height:80px;
+    width:50px;
+}
+.AccountListItemCheckBoxLabel{
+    height:100%;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+.container form #AccountList .AccountListItemCheckBoxContainer .checkbox .AccountListItemCheckBox{
+    margin:0px;
+    height:100%;
+    width:100%;
+}
+.AccountListItemInfo{
+    float:left;
+    width:92.39%;
+    height:80px;
+    margin:0px;
+}
+.AccountListItemInfoUsernameContainer{
+    float:left;
+    background-color: #255ddd;
+    border-radius: 10px 0 0 10px;
+    height:80px;
+    width:200px;
+    margin-right:10px;
+}
+.AccountListItemInfoUsername{
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:30px;
+    height:80px;
+    width: 100%;
+}
+.AccountListItemInfoDateOfBirth{
+    float:left;
+}
+.AccountListItemInfoCountry{
+    float:left;
+}
+table {
+border:none;
+border-collapse: collapse;
+}
+
+table td {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    width:150px;
+}
+
+table td:first-child {
+    border-left: none;
+    padding-left:0;
+}
+
+table td:last-child {
+    border-right: none;
+    padding-right:0;
+}
+table th {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table th:first-child {
+    border-left: none;
+    padding-left:0;
+}
+
+table th:last-child {
+    border-right: none;
+    padding-right:0;
+}
+.AccountListItemInfoTable{
+    margin-top:15px;
+}
+#addFriendSubmitButton{
+    float:right;
+    margin: 0px 0px 0px 10px;
+    height: 38px;
+}
+#addFriendMessage{
+}
+#addFriendMessageContainer{
+    float:left;
+    height: 38px;
+    width: 87%;
+}
+#loginErrorMessage{
+}
+.dropdown-menu{
+    left:-50px;
+}
+#loginForm{
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+}
+#loginCheckboxLabel{
+    padding-top:0px;
+}
+.container #loginForm .loginControls{
+    margin-left:80px;
+}
+.container #loginForm .loginLabels{
+    width:auto;
+}
+.container #loginForm .loginSubmitControls{
+    margin-left:0px;
+    float:right;
+}

@@ -1,0 +1,47 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Friend</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="bootstrap/CSS/bootstrap.css" rel="stylesheet" media="screen">
+        <link href="CSS/stylesheetMain.css" rel="stylesheet" type="text/css">
+    </head>
+    <body onload="checkLoggedIn();">
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="FunctionsLogin.js"></script>
+        <script src="FunctionsGeneral.js"></script>
+        <script src="FunctionsChat.js"></script>
+        <script src="FunctionsLoginHTML.js"></script>
+        <script src="FunctionsAddFriend.js"></script>
+        <script src="FunctionsAddFriendHTML.js"></script>
+        
+        <div class="masterHeader">
+            <div class="masterHeaderLogo">
+                <a class="masterHeaderLogoHomeLink" href="Home.html"><img src="Images/Home.png" width="30" height="30"/></a>
+                <div class="masterHeaderLogoSitename">
+                    <h3>ChatSite</h3>
+                </div>
+            </div>
+            <div id="headerControls" class="btn-group masterHeaderControls">
+            </div>
+        </div>
+        <div class="container">
+            <!--<input type="button" id="statusButton" value="refresh Status" onclick="getOnlineStatus();"/>-->
+            <div class="header">
+                <h1>Add friend</h1>
+            </div>
+            <form method="post" action="" onsubmit="return addFriends();">
+                <div id="AccountList">
+                </div>
+                <div id="addFriendMessageContainer">
+                </div>
+                <button id="addFriendSubmitButton" type="submit" class="btn btn-primary">Add selected</button>
+            </form>
+        </div>
+    </body>
+</html>

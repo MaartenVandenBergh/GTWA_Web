@@ -1,0 +1,104 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="bootstrap/CSS/bootstrap.css" rel="stylesheet" media="screen">
+        <title>Registration</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="CSS/stylesheetMain.css" REL="stylesheet" TYPE="text/css">
+    </head>
+    <body onload="checkLoggedIn();">
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="FunctionsGeneral.js"></script>
+        <script src="FunctionsLogin.js"></script>
+        <script src="FunctionsRegistration.js"></script>
+        <script src="FunctionsLoginHTML.js"></script>
+        
+        <div class="masterHeader">
+            <div class="masterHeaderLogo">
+                <a class="masterHeaderLogoHomeLink" href="Home.html"><img src="Images/Home.png" width="30" height="30"/></a>
+                <div class="masterHeaderLogoSitename">
+                    <h3>ChatSite</h3>
+                </div>
+            </div>
+            <div id="headerControls" class="btn-group masterHeaderControls">
+            </div>
+        </div>
+        <div class="container">
+            <div class="header">
+              <h1>Registration</h1>  
+            </div>
+            <form class="form-horizontal" method="post" action="" onsubmit="return registrate();">
+                <div id="username" class="control-group">
+                  <label class="control-label" for="inputUsername">Username</label>
+                  <div class="controls">
+                    <input type="text" id="inputUsername" placeholder="Username">
+                  </div>
+                </div>
+                <div id="password" class="control-group">
+                  <label class="control-label" for="inputPassword">Password</label>
+                  <div class="controls">
+                    <input type="password" id="inputPassword" placeholder="Password">
+                  </div>
+                </div>
+                <div id="repeatPassword" class="control-group">
+                  <label class="control-label" for="inputRepeatPassword">Repeat password</label>
+                  <div class="controls">
+                    <input type="password" id="inputRepeatPassword" placeholder="Repeat password">
+                  </div>
+                </div>
+                <br />
+                <div id="name" class="control-group">
+                  <label class="control-label" for="inputName">Name</label>
+                  <div class="controls">
+                    <input type="text" id="inputName" placeholder="Name">
+                  </div>
+                </div>
+                <div id="surname" class="control-group">
+                  <label class="control-label" for="inputSurname">Surname</label>
+                  <div class="controls">
+                    <input type="text" id="inputSurname" placeholder="Surname">
+                  </div>
+                </div>
+                <br />
+                <div id="email" class="control-group">
+                  <label class="control-label" for="inputEmail">Email</label>
+                  <div class="controls">
+                    <input type="email" id="inputEmail" placeholder="Email">
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="controls">
+                    <button type="submit" class="btn btn-primary">Registrate</button>
+                  </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+<!--
+<form method="post" action="">
+                <div>
+                    <label for="vNaam">Voornaam: </label><br />
+                    <input type="text" name="vNaam" size = "45" id="vNaam" value="" /><br />
+                    
+                    <label for="aNaam">Achternaam: </label><br />
+                    <input type="text" name="aNaam" size = "45" id="aNaam" value="" /><br />
+
+                    <label for="wachtwoord">Wachtwoord:</label><br />
+                    <input type="password" name="wachtwoord" size = "45" id="wachtwoord" /><br />
+
+                    <label for="repwachtwoord">Herhaal wachtwoord:</label><br />
+                    <input type="password" name="checkwachtwoord" size = "45" id="repwachtwoord" /><br />
+
+                    <label for="email">Emailadres:</label><br />
+                    <input type="email" name="emailadres" size = "45" id="email" value="" /><br />
+
+                    <input type="submit" value="Registreer" />
+                </div>	
+            </form>
+-->
